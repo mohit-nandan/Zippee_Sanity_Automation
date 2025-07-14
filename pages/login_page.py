@@ -10,10 +10,10 @@ class LoginPage(BasePage):
 
     def login(self, username, password):
         self.type(*self.USERNAME, username)
-        time.sleep(3) 
+        time.sleep(1) 
         self.click(*self.Continue_with_email_btn)
-        time.sleep(3) 
+        time.sleep(1) 
         self.type(*self.PASSWORD, password)
-        time.sleep(3) 
+        time.sleep(1) 
         self.click(*self.LOGIN_BTN)
-        time.sleep(3)  # wait for login to process, adjust as needed
+        time.sleep(1) 
