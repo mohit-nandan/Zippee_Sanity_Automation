@@ -1,0 +1,4 @@
+base_url: "https://staging.zfwhospitality.in./sign-in"     # Replace with real login URL
+browser: "chrome"
+username: "testums11@gmail.com"
+password: "QWERTY!@#$%"
